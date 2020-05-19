@@ -1,0 +1,47 @@
+<%- include("partials/header") %>
+
+<div class="container">
+    <div class="jumbotron">
+        <form action="/addUrl" method="POST">
+          <div class="form-group input-group-lg">
+            <label for="longUrl"><h3>Enter URL</h3></label>
+            <input type="text" class="form-control" name="longUrl" id="longUrl" value="<%=longUrl%>">
+            <small id="URL" class="form-text text-muted"> Enter long URL here</small>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+        </form>
+
+        <% if(flag) {%>
+        <br><br>
+            <div>
+                <div class="form-group input-group-lg">
+                    <label><h3>Short URL</h3></label>
+                    <input type="text" id="selectUrl" class="form-control" value="<%=shortUrl%>" readonly>
+                    <small id="helpShorturl" class="form-text text-muted">Generated Short URL</small>
+                </div>
+
+                <button onclick="myFunction()" class="btn btn-default btn-lg">Copy URL</button>
+            </div>
+
+        <% } %>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function myFunction() {
+
+        var copyText = document.getElementById("selectUrl");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+        document.execCommand("copy");
+    }
+</script>
+
+<%- include("partials/footer") %>
+
+
+
+
