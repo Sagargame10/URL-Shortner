@@ -92,7 +92,7 @@ app.get("/searchUrl/:SearchShortUrl",function(req,res){
         }
         else
         {
-            var redirectTo = "https://" + foundUrl.longUrl;
+            var redirectTo = foundUrl.longUrl;
 
             res.redirect(redirectTo);
         }
