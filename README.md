@@ -11,6 +11,6 @@ Reduce the length of the long URLs to short one, for easy sharing
 2. Go to the root directory of the downloaded repository and download the **npm dependencies** type cmd command : `npm install`  
 3. Turn on **Mongo Daemon** i.e ***mongod*** and keep it running in background  
 4. Again visit the root directory of the downloaded repository and run app.js using cmd command: `node app.js`. This will create a node server on port 3000. Keep the server running.  
-5. Open any browser and type in the url ***[localhost:3000]*** . This will open the home-page for URL-Shortner  
+5. Open any browser and type in the url ***localhost:3000*** . This will open the home-page for URL-Shortner  
 
 > For regenrationg a new url, you can directly type it in the ***Enter URL*** field or *click* on the ***URL-Shortner logo*** to visit home page.
