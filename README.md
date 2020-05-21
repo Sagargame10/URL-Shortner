@@ -13,4 +13,4 @@ Reduce the length of the long URLs to short one, for easy sharing
 4. Again visit the root directory of the downloaded repository and run app.js using cmd command: `node app.js`. This will create a node server on port 3000. Keep the server running.  
 5. Open any browser and type in the url ***localhost:3000*** . This will open the home-page for URL-Shortner  
 
-> For regenrationg a new url, you can directly type it in the ***Enter URL*** field or *click* on the ***URL-Shortner logo*** to visit home page.
+> For regenrationg a new url, you can directly type the new url in the ***Enter URL*** field or *click* on the ***URL-Shortner logo*** to visit home page.
