@@ -14,7 +14,7 @@ Reduce the length of the long URLs to short one, for easy sharing
 5. Open any browser and type in the url ***localhost:3000*** . This will open the home-page for URL-Shortner  
 6. Now you can enter the *Long URL* in the ***Enter URL*** field and generate the corresponding *Short URL*.
 
-***Note : While entering the long URL, please enter the whole URL i.e include https:// or http:// before the URL. ***
+***Note : While entering the long URL, please enter the whole URL i.e include https:// or http:// before the URL. ***  
 *** Ex: https://github.com/Sagargame10/URL-Shortner ***
 
 > For regenrationg a new url, you can directly type the new url in the ***Enter URL*** field or *click* on the ***URL-Shortner logo*** to visit home page.
